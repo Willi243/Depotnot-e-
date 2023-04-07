@@ -1,3 +1,7 @@
+#include "TD_GitHub.h"
+#include <iostream>
+
+
 //Fonctions réalisées par l'étudiant 1 :
 bool estMajeur(int age) {
     if (age >= 18) {
@@ -12,7 +16,7 @@ int exp(int  nbre, int exp) {
     int i;
     if (exp>= 0) {
         for (i = 1; i <= exp; i++) {
-            resultat *= nombre;
+            resultat *= nbre;
         }
     } else {
         for (i = 1; i <= -exp; i++) {
@@ -96,19 +100,42 @@ int plusPetit(int a,int b,int c) {
 
 //Fonctions réalisées par l'étudiant 3 :
 
+#include <stdio.h>
+ 
+int main()
+{
+   int nbr;
+   
+   printf("Entrez un entier:\n");
+   scanf("%d", &nbr);
+   
+   if (nbr % 2 == 0){
+      printf("Paire\n");
+   
+   return false;
+   
+   }else{
+	 
+		return true; 
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-int main() {
-
+ 
+     
+   return 0;
 }
+
+
+
+#include <stdio.h>
+ 
+int main()
+{
+   int fonctMoyenne(val1, val2, val3)
+{
+    float moyenne;
+    moyenne = (val1 + val2 + val3) / 3;    
+    return moyenne;
+}
+
+
+
