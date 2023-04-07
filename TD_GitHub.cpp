@@ -1,9 +1,44 @@
 //Fonctions réalisées par l'étudiant 1 :
+bool estMajeur(int age) {
+    if (age >= 18) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+int exp(int  nbre, int exp) {
+    int  resultat = 1;
+    int i;
+    if (exp>= 0) {
+        for (i = 1; i <= exp; i++) {
+            resultat *= nombre;
+        }
+    } else {
+        for (i = 1; i <= -exp; i++) {
+            resultat /= nbre;
+        }
+    }
+    return resultat;
+}
+float TVA(int prix) {
+    const float tauxTVA = 0.196;
+    float prixTVA = prix * tauxTVA;
+    float prixTotal = prix + prixTVA;
+    return prixTotal;
+}
 
 
-
-
-
+int plusGrand(int a, int b, int c) {
+    int max = a;
+    if (b > max) {
+        max = b;
+    }
+    if (c > max) {
+        max = c;
+    }
+    return max;
+}
 
 
 
